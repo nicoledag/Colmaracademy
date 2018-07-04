@@ -14,7 +14,7 @@ html {
   color: gray;
 }
 
-.container {
+main {
   max-width: 1200px;
   margin: auto;
 }
@@ -24,7 +24,7 @@ html {
 header {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 1200px;
   height: 64px;
 }
 
@@ -90,5 +90,21 @@ display: none;
   width: 100%;
 }
 
+}
 
+/*Banner Section*/
+
+.container {
+  width: 1200px;
+  height: 575px;
+  background-color: silver;
+}
+
+.image img {
+  float: left;
+  width: 60%;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
