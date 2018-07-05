@@ -37,8 +37,13 @@ header {
   margin-left: 24px;
 }
 
+
+.logo img {
+  height: 2.7rem;
+}
+
 .logo span {
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 .nav {
@@ -63,13 +68,12 @@ display: none;
 
 .colmar {
   font-weight: bold;
-  color: gray;
+  color: dimgray;
 }
 
 .academy {
   color: silver;
 }
-
 
 
 @media only screen and (max-width: 480px)  {
@@ -100,7 +104,7 @@ display: none;
 .banner {
   width: 1200px;
   height: 600px;
-  background-color: silver;
+  background-color: gainsboro;
 }
 
 .bannerimage {
@@ -116,22 +120,54 @@ display: none;
 }
 
 
+
 .text {
 display: inline-block;
 position: relative;
+width: 20rem;
 top: 200px;
 left: 750px;
+word-break: break-all;
+color: dimgray;
+
+}
+
+
+.text h1 {
+font-size: 2.3rem;
+word-break: break-all;
+font-weight: bold;
+
+}
+
+.text p {
+font-size: 1.6rem;
+
+}
+
+.start {
+  height: 50px;
+  background-color: dimgray;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  font-size: 1.3rem;
 }
 
 
 @media only screen and (max-width: 480px)  {
   .banner {
-    width: 100%; }
+    width: 100%;
+}
 
-    .bannerimage {
-      background-image: url("../images/banner.jpg");
-      width: 30%;
-      height: 300px;
+  .bannerimage {
+  background-image: url("../images/banner.jpg");
+  width: 30%;
+  height: 300px;
+  }
 
+  .text {
+  position: static;
+  margin-top: 300px;
 
 }
