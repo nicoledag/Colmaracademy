@@ -170,7 +170,7 @@ font-size: 1.6rem;
 
 .about {
   width: 1200px;
-  height: 600px;
+  height: 700px;
 }
 
 .aboutimage {
@@ -194,11 +194,17 @@ color: dimgray;
 }
 
 .info {
-  display: inline-block;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
   position: relative;
-  width: 20rem;
-  top: 0px;
+  width: 65%;
   left: 750px;
   word-break: break-all;
   color: dimgray;
   }
+
+.about img {
+  width: 35%;
+  height: auto;
+}
