@@ -257,7 +257,11 @@ align-content: center;
 
 .right-text span {
   color: blue;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.border {
+  background-color: silver;
 }
 
 @media only screen and (max-width: 480px)  {
