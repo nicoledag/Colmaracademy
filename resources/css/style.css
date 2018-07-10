@@ -96,6 +96,7 @@ display: none;
   width: 100%;
 }
 
+
 }
 
 
@@ -103,7 +104,7 @@ display: none;
 /*Banner Section*/
 
 .banner {
-  width: 100%;
+  width: 1400px;
   height: 600px;
   background-color: gainsboro;
 }
@@ -155,6 +156,10 @@ font-size: 1.6rem;
 
 
 @media only screen and (max-width: 480px)  {
+
+  .main {
+    width: 100%;
+  }
 
   .banner {
     width: 100%;
