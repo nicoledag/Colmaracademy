@@ -103,6 +103,7 @@ display: none;
 
 /*Banner Section*/
 
+
 .banner {
   width: 1400px;
   height: 600px;
@@ -159,8 +160,8 @@ font-size: 1.6rem;
 
   .main {
     width: 100%;
-  }
 
+  }
   .banner {
     width: 100%;
     margin-bottom: 24px;
@@ -168,14 +169,15 @@ font-size: 1.6rem;
 
   .bannerimage {
   background-image: url("../images/banner.jpg");
-  width: 400px;
   height: 300px;
+  width: 100%;
+  margin: auto;
   }
 
   .text {
   position: static;
   margin-top: 300px;
-  margin-left: 0px;
+  margin-left: 24px;
 }
 
 .text {
@@ -188,6 +190,7 @@ font-size: 2.2rem;
 }
 
 .text p {
+
 font-size: 1.5rem;
 
 }
@@ -310,7 +313,7 @@ height: 175px;
  width: 400px;
  height: 250px;
  margin-left: 24px;
- margin-bottom: 30px
+ margin-bottom: 10px;
 }
 
 .about-mobile .right-text {
