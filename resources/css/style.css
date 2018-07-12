@@ -19,6 +19,16 @@ html {
   margin: auto;
   border-left: solid silver 1px;
   border-right: solid silver 1px;
+  border-bottom: solid silver 1px;
+}
+
+
+@media only screen and (max-width: 560px)  {
+
+  .main {
+    width: 100%;
+
+  }
 }
 
 
@@ -269,7 +279,7 @@ height: 175px;
   display: none;
 }
 
-.right-text h1 {
+.right-text h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
   padding-bottom: 5px;
@@ -390,3 +400,58 @@ height: 175px;
   font-size: 1.1rem;
   color: gray;
 }
+
+@media only screen and (max-width: 560px)  {}
+
+
+
+
+
+
+  .thesis {
+  display: flex;
+  width: 1400px;
+  height: 900px;
+  margin: auto;
+  }
+
+  .column .left {
+    flex: 60%;
+  }
+
+  .column .right {
+    flex: 40%;
+  }
+
+
+
+  .left-text {
+    width: 720px;
+    margin-left: 24px;
+  }
+
+
+  .thesis h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: dimgray;
+    text-align: center;
+  }
+
+  video {
+    margin-top: 150px;
+  }
+
+
+
+@media only screen and (max-width: 560px)  {}
+
+  footer {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: solid silver 1px;
+    width: 1400px;
+    height: 100px;
+  }
