@@ -15,7 +15,7 @@ html {
 }
 
 .main {
-  width: 1400px;
+  width: 1500px;
   margin: auto;
   border-left: solid silver 1px;
   border-right: solid silver 1px;
@@ -23,7 +23,7 @@ html {
 }
 
 
-@media only screen and (max-width: 560px)  {
+@media only screen and (max-width: 480px)  {
 
   .main {
     width: 100%;
@@ -50,11 +50,11 @@ header {
 }
 
 .logo img {
-  height: 2.7rem;
+  height: 3rem;
 }
 
 .logo span {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .nav {
@@ -62,6 +62,7 @@ display: flex;
 justify-content: flex-end;
 align-items: center;
 margin-right: 24px;
+font-size: 1.2rem;
 }
 
 .box {
@@ -87,7 +88,7 @@ display: none;
 }
 
 
-@media only screen and (max-width: 560px)  {
+@media only screen and (max-width: 480px)  {
 
 .logo {
   display: none;
@@ -115,15 +116,15 @@ display: none;
 
 
 .banner {
-  width: 1400px;
-  height: 600px;
+  width: 1500px;
+  height: 700px;
   background-color: gainsboro;
 }
 
 .bannerimage {
   background-image: url("../images/banner.jpg");
-  width: 740px;
-  height: 600px;
+  width: 840px;
+  height: 700px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -136,7 +137,7 @@ display: inline-block;
 position: relative;
 width: 24rem;
 top: 160px;
-left: 750px;
+left: 850px;
 word-break: break-all;
 color: dimgray;
 margin-left: 40px;
@@ -166,7 +167,7 @@ font-size: 1.6rem;
 }
 
 
-@media only screen and (max-width: 560px)  {
+@media only screen and (max-width: 480px)  {
 
   .main {
     width: 100%;
@@ -211,7 +212,7 @@ font-size: 1.5rem;
 
 .about {
 display: flex;
-width: 1400px;
+width: 1500px;
 height: 675px;
 margin: auto;
 }
@@ -225,10 +226,10 @@ margin: auto;
 }
 
 .left img {
-width: 740px;
+width: 840px;
 background-repeat: no-repeat;
 background-position: center;
-margin: 32px 24px;
+margin: 32px 32px;
 }
 
 .left-text {
@@ -250,13 +251,13 @@ margin: 32px 24px;
 .row {
  display: flex;
  flex-direction: row;
- width: 100%;
+ width: 595px;
  height: 225px;
  border: solid silver 1px;
 }
 
 .row img {
-  width: 40%;
+  width: 225px;
   height: 225px;
   background-repeat: no-repeat;
   background-position: center;
@@ -304,7 +305,7 @@ height: 175px;
   background-color: silver;
 }
 
-@media only screen and (max-width: 560px)  {
+@media only screen and (max-width: 480px)  {
 
 .about {
   display: none;
@@ -336,7 +337,7 @@ height: 175px;
 
   .courses {
     height: 1100px;
-    width: 1400px;
+    width: 1500px;
     margin: auto;
     margin-top: 70px;
     text-align: center;
@@ -367,8 +368,8 @@ height: 175px;
   .item {
     height: 200px;
     width: 375px;
-    margin-right: 20px;
-    margin-bottom: -10px;
+    margin-right: 25px;
+    margin-bottom: -2px;
   }
 
 .subject-text {
@@ -378,6 +379,7 @@ height: 175px;
   background-color: white;
   font-family: Arial;
 }
+
 .subjects h2 {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -401,7 +403,7 @@ height: 175px;
   color: gray;
 }
 
-@media only screen and (max-width: 560px)  {}
+@media only screen and (max-width: 480px)  {}
 
 
 
@@ -410,19 +412,19 @@ height: 175px;
 
   .thesis {
   display: flex;
-  width: 1400px;
-  height: 900px;
+  width: 1500px;
+  height: 700px;
   margin: auto;
   }
 
   .column .left {
     flex: 60%;
+
   }
 
   .column .right {
     flex: 40%;
   }
-
 
 
   .left-text {
@@ -431,7 +433,7 @@ height: 175px;
   }
 
 
-  .thesis h1 {
+  .thesis-text h1 {
     font-weight: bold;
     font-size: 2.5rem;
     padding-top: 50px;
@@ -440,16 +442,14 @@ height: 175px;
     text-align: center;
   }
 
-  video {
-    margin-top: 150px;
-  }
 
 
 
-@media only screen and (max-width: 560px)  {}
+@media only screen and (max-width: 480px)  {}
 
   footer {
     margin-top: 30px;
+    margin-left: 24px;
     padding-top: 30px;
     border-top: solid silver 1px;
     width: 1400px;
