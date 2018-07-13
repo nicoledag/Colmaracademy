@@ -15,7 +15,7 @@ html {
 }
 
 .main {
-  width: 1500px;
+  width: 1400px;
   margin: auto;
   border-left: solid silver 1px;
   border-right: solid silver 1px;
@@ -50,11 +50,11 @@ header {
 }
 
 .logo img {
-  height: 3rem;
+  height: 2.8rem;
 }
 
 .logo span {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .nav {
@@ -62,7 +62,7 @@ display: flex;
 justify-content: flex-end;
 align-items: center;
 margin-right: 24px;
-font-size: 1.2rem;
+font-size: 1.1rem;
 }
 
 .box {
@@ -116,14 +116,14 @@ display: none;
 
 
 .banner {
-  width: 1500px;
+  width: 1400px;
   height: 675px;
   background-color: gainsboro;
 }
 
 .bannerimage {
   background-image: url("../images/banner.jpg");
-  width: 840px;
+  width: 740px;
   height: 675px;
   background-repeat: no-repeat;
   background-position: center;
@@ -137,7 +137,7 @@ display: inline-block;
 position: relative;
 width: 24rem;
 top: 160px;
-left: 850px;
+left: 750px;
 word-break: break-all;
 color: dimgray;
 margin-left: 40px;
@@ -212,7 +212,7 @@ font-size: 1.5rem;
 
 .about {
 display: flex;
-width: 1500px;
+width: 1400px;
 height: 675px;
 margin: auto;
 }
@@ -226,7 +226,7 @@ margin: auto;
 }
 
 .left img {
-width: 840px;
+width: 740px;
 background-repeat: no-repeat;
 background-position: center;
 margin: 32px 32px;
@@ -337,7 +337,7 @@ height: 175px;
 
   .courses {
     height: 1100px;
-    width: 1500px;
+    width: 1400px;
     margin: auto;
     margin-top: 82px;
     text-align: center;
@@ -412,7 +412,7 @@ height: 175px;
 
   .thesis {
   display: flex;
-  width: 1500px;
+  width: 1400px;
   height: 650px;
   margin: auto;
   }
