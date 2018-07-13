@@ -117,14 +117,14 @@ display: none;
 
 .banner {
   width: 1500px;
-  height: 700px;
+  height: 675px;
   background-color: gainsboro;
 }
 
 .bannerimage {
   background-image: url("../images/banner.jpg");
   width: 840px;
-  height: 700px;
+  height: 675px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -339,7 +339,7 @@ height: 175px;
     height: 1100px;
     width: 1500px;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 82px;
     text-align: center;
     background-color: silver;
 
@@ -362,7 +362,7 @@ height: 175px;
  .subjects {
   height: 400px;
   width: 400px;
-  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
   .item {
@@ -413,7 +413,7 @@ height: 175px;
   .thesis {
   display: flex;
   width: 1500px;
-  height: 700px;
+  height: 650px;
   margin: auto;
   }
 
@@ -442,16 +442,27 @@ height: 175px;
     text-align: center;
   }
 
+video {
+  object-fit: contain;
+  margin-right: 32px;
+  margin-left: 32px;
+  margin-bottom: 32px;
+}
 
 
 
 @media only screen and (max-width: 480px)  {}
 
   footer {
-    margin-top: 30px;
-    margin-left: 24px;
-    padding-top: 30px;
+    margin-top: 32px;
     border-top: solid silver 1px;
-    width: 1400px;
-    height: 100px;
+    padding: 1.5rem 2rem;
   }
+
+footer .content {
+  display: flex;
+}
+
+footer .copyright {
+  flex-grow: 1;
+}
