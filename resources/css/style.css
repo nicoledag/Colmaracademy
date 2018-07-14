@@ -356,7 +356,6 @@ height: 175px;
     margin-top: 82px;
     text-align: center;
     background-color: silver;
-
   }
 
   .courses h1 {
@@ -421,12 +420,46 @@ height: 175px;
 
 
 
+.courses {
+  display: none;
+}
+
+.courses-mobile {
+  border: solid silver 1px;
+}
+
+.courses-mobile h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: dimgray;
+  text-align: center;
+}
+
+.courses-mobile {
+  height: 800px;
+  width: 100%;
+  margin: auto;
+  margin-top: 82px;
+}
+
+.courses-mobile h2 {
+    height: 75px;
+    margin-bottom: 15px;
+    margin-left: 16px;
+    margin-right: 16px;
+    background-color: silver;
+    color: white;
+    padding: 15px;
+    font-size: 1.3rem;
+    color: dimgray;
+    padding-top: 25px;
+  }
 
 
 
-
-
-
+}
 
 
 
