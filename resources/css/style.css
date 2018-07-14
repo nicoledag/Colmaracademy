@@ -416,19 +416,28 @@ height: 175px;
   color: gray;
 }
 
-@media only screen and (max-width: 480px)  {
+.mobile {
+  display: none;
+}
 
+@media only screen and (max-width: 480px)  {
 
 
 .courses {
   display: none;
 }
 
-.courses-mobile {
+.mobile {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
   border: solid silver 1px;
 }
 
-.courses-mobile h1 {
+.mobile h1 {
   font-weight: bold;
   font-size: 2rem;
   padding-top: 50px;
@@ -437,14 +446,7 @@ height: 175px;
   text-align: center;
 }
 
-.courses-mobile {
-  height: 800px;
-  width: 100%;
-  margin: auto;
-  margin-top: 82px;
-}
-
-.courses-mobile h2 {
+.mobile h2 {
     height: 75px;
     margin-bottom: 15px;
     margin-left: 16px;
@@ -458,17 +460,7 @@ height: 175px;
   }
 
 
-
 }
-
-
-
-
-
-
-}
-
-
 
 
 
