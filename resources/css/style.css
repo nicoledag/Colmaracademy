@@ -194,7 +194,7 @@ font-size: 1.6rem;
   position: static;
   margin-top: 300px;
   margin-left: 24px;
-  width: 20rem;
+  width: 375px;
 }
 
 .text h1 {
@@ -325,12 +325,12 @@ height: 175px;
 }
 
 .about-mobile img {
- width: 400px;
+ width: 375px;
  height: 200px;
 }
 
 .about-mobile .right-text {
- margin-left: 60px;
+ margin-left: 80px;
  margin-top: 16px;
 }
 
