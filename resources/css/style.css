@@ -214,7 +214,6 @@ font-size: 1.2rem;
 
 }
 
-
 /* About Section*/
 
 .about {
@@ -557,6 +556,10 @@ footer .copyright {
 
 @media only screen and (max-width: 480px)  {
 
+footer {
+  width: 100%;
+
+}
 footer .terms {
   display: none;
 }
