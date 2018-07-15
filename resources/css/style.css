@@ -519,7 +519,7 @@ video {
 .thesis-text h1 {
   font-size: 2rem;
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 16px;
 }
 
 .thesis .left-text {
@@ -534,13 +534,10 @@ video {
 video {
   height: 300px;
   width: 100%;
-  object-fit: cover;
-  margin-right: 0px;
-  margin-left: 0px;
-  margin-bottom: 0px;
+  object-fit: contain;
+  margin: auto;
+
 }
-
-
 
 }
 
