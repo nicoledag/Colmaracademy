@@ -339,7 +339,6 @@ height: 175px;
 
 .right-text h2 {
   font-size: 1.3rem;
-
 }
 
 .right-text h3 {
@@ -432,7 +431,7 @@ height: 175px;
 .mobile {
   display: flex;
   flex-direction: column;
-  height: 700px;
+  height: 675px;
   width: 100%;
   margin: auto;
   margin-top: 30px;
@@ -442,8 +441,8 @@ height: 175px;
 .mobile h1 {
   font-weight: bold;
   font-size: 2rem;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: dimgray;
   text-align: center;
 }
@@ -462,10 +461,11 @@ height: 175px;
   }
 
 
+
 }
 
 
-
+/*Thesis Section*/
 
   .thesis {
   display: flex;
@@ -508,7 +508,41 @@ video {
 
 
 
-@media only screen and (max-width: 480px)  {}
+@media only screen and (max-width: 480px)  {
+
+
+  .thesis {
+  height: 250px;
+  width: 100%;
+  }
+
+.thesis-text h1 {
+  font-size: 2rem;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.thesis .left-text {
+  display: none;
+}
+
+.thesis .row {
+  display: none;
+}
+
+
+video {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+}
 
   footer {
     margin-top: 32px;
@@ -522,4 +556,21 @@ footer .content {
 
 footer .copyright {
   flex-grow: 1;
+}
+
+@media only screen and (max-width: 480px)  {
+
+footer .terms {
+  display: none;
+}
+
+footer .copyright {
+  font-size: .8rem;
+  margin-top: 24px;
+}
+
+footer {
+  margin-bottom: 20px;
+}
+
 }
