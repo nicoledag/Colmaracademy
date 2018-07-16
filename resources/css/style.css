@@ -28,82 +28,129 @@ html {
 
 
 header {
+ height: 4rem;
+}
+
+nav {
  display: flex;
- align-items: center;
- width: 100%;
- height: 64px;
+ justify-content: space-between;
+ padding: 1rem 0;
 }
 
-.logo {
- display: flex;
- align-items: center;
- flex-grow: 1;
- height: 32px;
- margin-left: 24px;
-}
-
-.logo img {
- height: 2.8rem;
-}
-
-.logo span {
- font-size: 1.4rem;
-}
-
-.nav {
+nav div {
 display: flex;
-justify-content: flex-end;
 align-items: center;
-margin-right: 24px;
-font-size: 1.1rem;
 }
 
-.box {
- height: 64px;
- width: 16px;
+nav .logo {
+  height: 2.1rem;
+  margin-left: 1.5rem;
+  margin-right: 0;
 }
 
-.color {
- background-color: silver;
+nav ul {
+  margin-right: 1rem;
 }
 
-.truncated-menu {
+nav li {
+  display: inline;
+  padding: 0 1rem;
+}
+
+.responsive {
 display: none;
 }
 
 .colmar {
  font-weight: bold;
  color: dimgray;
+ font-size: 1.2rem;
 }
 
 .academy {
  color: silver;
+ font-size: 1.2rem;
 }
+
+
+@media only screen and (max-width: 480px) {
+
+
+
+}
+
 
 
 @media only screen and (max-width: 480px)  {
 
-.logo {
+header .logo {
  display: none;
 }
 
-.logo span {
- display: none;
-}
-.nav {
+header div span {
  display: none;
 }
 
-.truncated-menu {
- display: flex;
- justify-content: space-around;
+.menu {
+  display: none;
+}
+
+.responsive {
+ display: block;
+ text-align: center;
+ padding-top: .5rem;
  width: 100%;
 }
 
-.truncated-menu img {
+nav li {
+  display: inline;
+  padding: 0 2rem;
+}
+
+.responsive img {
  height: 1.8rem;
 
 }
+
+}
+
+
+@media only screen and (max-width: 425px) {
+
+
+  nav li {
+    display: inline;
+    padding: 0 1.8rem;
+  }
+
+}
+
+
+@media only screen and (max-width: 375px) {
+
+
+  nav li {
+    display: inline;
+    padding: 0 1.4rem;
+  }
+
+}
+
+@media only screen and (max-width: 360px) {
+
+  nav li {
+    display: inline;
+    padding: 0 1.2rem;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+  nav li {
+    display: inline;
+    padding: 0 1rem;
+  }
 
 }
 
@@ -113,14 +160,14 @@ display: none;
 
 .banner {
   width: 1400px;
-  height: 675px;
+  height: 625px;
   background-color: #660000;
 }
 
 .bannerimage {
   background-image: url("../images/banner.jpg");
   width: 740px;
-  height: 675px;
+  height: 625px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -132,7 +179,7 @@ display: none;
 display: inline-block;
 position: relative;
 width: 24rem;
-top: 175px;
+top: 160px;
 left: 750px;
 word-break: break-all;
 color: white;
