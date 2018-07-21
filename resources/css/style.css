@@ -61,7 +61,7 @@ nav ul {
 nav li {
   display: inline;
   padding: 0 1rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 nav li:hover {
@@ -83,62 +83,54 @@ display: none;
  font-size: 1.2rem;
 }
 
+@media only screen and (max-width: 768px) {
 
-@media only screen and (max-width: 768px)  {
-
-header .logo {
- display: none;
-}
-
-header div span {
- display: none;
-}
-
-.menu {
+  header .logo {
   display: none;
-}
+  }
 
-.responsive {
- display: block;
- text-align: center;
- padding-top: .5rem;
- width: 100%;
-}
+  header div span {
+  display: none;
+  }
 
-nav li {
-  display: inline;
-  padding: 0 1.7rem;
-}
+  .menu {
+   display: none;
+  }
 
-.responsive img {
- height: 1.4rem;
-}
-
-}
-
-@media only screen and (max-width: 375px) {
+  .responsive {
+  display: block;
+  text-align: center;
+  padding-top: .5rem;
+  width: 100%;
+  }
 
   nav li {
-    padding: 0 1.4rem;
+   display: inline;
+   padding: 0 4rem;
+  }
+
+  .responsive img {
+  height: 1.4rem;
   }
 
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 395px) {
 
   nav li {
-    padding: 0 1.2rem;
-  }
+     padding: 0 1.3rem;
+   }
 
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 325px) {
 
   nav li {
-    padding: 0 1rem;
-  }
+     padding: 0 1.1rem;
+   }
 
 }
+
 
 
 /*Banner Section*/
@@ -152,29 +144,27 @@ nav li {
   padding: 32px 24px 24px 32px;
 }
 
-
 .banner-text {
-  width: 100%;
-  padding-top: 125px;
+  width: 500px;
+  padding-top: 180px;
   padding-left: 24px;
 }
 
 .banner-text h1 {
   color: white;
   font-weight: bold;
-  font-size: 2.3rem;
-  padding-bottom: 32px;
+  font-size: 2.6rem;
+  padding-bottom: 48px;
 }
 
 .banner-text p {
   color: white;
-  font-size: 1.1rem;
-  padding-bottom: 32px;
+  font-size: 1.2rem;
+  padding-bottom: 48px;
 }
 
 .start {
  text-align: center;
- font-size: 1.4rem;
  height: 50px;
  width: 225px;
  background-color: dimgray;
@@ -182,12 +172,104 @@ nav li {
  padding: 11px;
 }
 
-.start span {
+.start:hover {
+  background-color: blue;
+}
+
+.start-text {
   color: white;
+  font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 1173px) {
+
+  .banner-text {
+    width: 400px;
+    padding-top: 80px;
+    padding-left: 16px;
+  }
+
 }
 
 
+@media only screen and (max-width: 1024px) {
 
+  .banner-text {
+    width: 350px;
+    padding-top: 90px;
+    padding-left: 16px;
+  }
+  .banner-text h1 {
+    font-size: 2.1rem;
+    padding-bottom: 32px;
+  }
+
+  .banner-text p {
+    font-size: 1.1rem;
+    padding-bottom: 32px;
+  }
+
+  .start {
+   text-align: center;
+   height: 40px;
+   width: 175px;
+   padding: 9px;
+  }
+
+  .start-text {
+    font-size: 1.2rem;
+  }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.left {
+  width: 100%;
+}
+
+.right {
+  width: 100%;
+}
+
+
+.banner-text {
+  width: 100%;
+  padding-top: 0px;
+  padding-left: 32px;
+  margin-bottom: 32px;
+}
+.banner-text h1 {
+  font-size: 2.1rem;
+  padding-bottom: 32px;
+}
+
+.banner-text p {
+  font-size: 1.1rem;
+  padding-bottom: 32px;
+}
+
+.start {
+ text-align: center;
+ height: 40px;
+ width: 175px;
+ padding: 9px;
+}
+
+.start-text {
+  font-size: 1.2rem;
+}
+
+}
 
 /* About Section*/
 
@@ -259,7 +341,6 @@ nav li {
 
 
 
-
   /*Courses Section*/
 
   .courses {
@@ -271,50 +352,55 @@ nav li {
   justify-content: center;
   flex-wrap: wrap;
 }
-    .courses h1 {
-     font-size: 2.5rem;
-     padding-top: 40px;
-     padding-bottom: 40px;
-     text-align: center;
-     color: white;
+  .courses h1 {
+   font-size: 2.5rem;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   text-align: center;
+   color: white;
+   font-weight: bold;
     }
 
-    .subjects {
-     height: 375px;
-     width: 400px;
+   .subjects {
+    height: 375px;
+    width: 400px;
     }
 
-    .item {
-     height: 175px;
-     width: 375px;
-      margin-bottom: -3px;
+  .item {
+    height: 175px;
+    width: 375px;
+    margin-bottom: -3px;
     }
 
-    .subject-text {
-     height: 175px;
-     width: 375px;
-     color: dimgray;
-     background-color: white;
-     padding-left: 16px;
-     padding-right: 16px;
+  .subject-text {
+    height: 175px;
+    width: 375px;
+    color: dimgray;
+    background-color: white;
+    padding-left: 16px;
+    padding-right: 16px;
     }
 
-    .subject-text h2 {
-     font-size: 1.5rem;
-     padding-top: 16px;
-     padding-bottom: 16px;
+    .subject-text:hover {
+      background-color: silver;
     }
 
-    .subject-text h3 {
-     font-size: 1.2rem;
-     padding-bottom: 8px;
+  .subject-text h2 {
+    font-size: 1.5rem;
+    padding-top: 16px;
+    padding-bottom: 16px;
     }
 
-    .subject-text p {
-     font-size: 1rem;
+  .subject-text h3 {
+   font-size: 1.2rem;
+   padding-bottom: 8px;
     }
 
-.mobile {
+  .subject-text p {
+   font-size: 1rem;
+    }
+
+ .mobile {
   display: none;
 }
 
@@ -333,6 +419,7 @@ video {
  padding-bottom: 20px;
  text-align: center;
  color: dimgray;
+ font-weight: bold;
 }
 
 /* Footer*/
@@ -344,7 +431,7 @@ footer {
  padding: 1rem 2rem;
  background-color: #660000;
  color: white;
- font-size: 1.2rem;
+ font-size: 1.1rem;
   }
 
 footer .content {
