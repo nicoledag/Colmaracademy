@@ -115,10 +115,10 @@ display: none;
 
 }
 
-@media only screen and (max-width: 395px) {
+@media only screen and (max-width: 425px) {
 
   nav li {
-     padding: 0 1.3rem;
+     padding: 0 1.7rem;
    }
 
 }
@@ -191,7 +191,6 @@ display: none;
 
 }
 
-
 @media only screen and (max-width: 1024px) {
 
   .banner-text {
@@ -222,9 +221,7 @@ display: none;
 
 }
 
-
 @media only screen and (max-width: 768px) {
-
 
 
 .container {
@@ -240,7 +237,6 @@ display: none;
 .right {
   width: 100%;
 }
-
 
 .banner-text {
   width: 100%;
@@ -271,13 +267,22 @@ display: none;
 
 }
 
+@media only screen and (max-width: 425px) {
+
+.container .left img {
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+}
+
+}
+
+
 /* About Section*/
 
 .about {
   background-color: white;
   margin-bottom: 32px;
 }
-
 
 .left img {
   width: 100%;
@@ -339,7 +344,17 @@ display: none;
   background-color: silver;
 }
 
+@media only screen and (max-width: 425px) {
 
+.about .left {
+  display: none ;
+}
+
+.row {
+  flex-direction: column;
+}
+
+}
 
   /*Courses Section*/
 
@@ -405,6 +420,48 @@ display: none;
 }
 
 
+@media only screen and (max-width: 425px) {
+.courses {
+  display: none;
+}
+
+
+.mobile {
+  display: block;
+  width: 100%;
+  background-color: #660000;
+  padding-bottom: 32px;
+
+}
+
+.mobile-start h1 {
+  font-size: 1.8rem;
+  text-align: center;
+  color: white;
+  padding-top: 32px;
+  padding-bottom: 16px;
+  font-weight: bold;
+
+}
+
+.mobile-text h2 {
+font-size: 1.2rem;
+background-color: silver;
+color: black;
+padding: 24px;
+margin: 24px;
+
+}
+
+.mobile-text h2:hover {
+  background-color: blue;
+}
+
+
+}
+
+
+
 /*Thesis Section*/
 
 
@@ -422,11 +479,33 @@ video {
  font-weight: bold;
 }
 
+@media only screen and (max-width: 425px) {
+.container .text {
+  display: none;
+}
+
+.thesis h1 {
+ font-size: 1.8rem;
+ padding-top: 32px;
+ padding-bottom: 32px;
+}
+
+video {
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+}
+
+.mobile-thesis {
+  display: none;
+}
+
+}
+
 /* Footer*/
 
 footer {
  width: 100%;
- margin-top: 16px;
+ margin-top: 0px;
  border-top: solid silver 1px;
  padding: 1rem 2rem;
  background-color: #660000;
@@ -466,7 +545,7 @@ footer .copyright {
 }
 
 footer {
- margin-bottom: 20px;
+ margin-bottom: 0px;
 }
 
 }
