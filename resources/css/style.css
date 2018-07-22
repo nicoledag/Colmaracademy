@@ -64,7 +64,11 @@ nav li {
   font-size: 1.1rem;
 }
 
-nav li:hover {
+nav a {
+text-decoration: none;
+}
+
+nav a:hover {
   color: blue;
 }
 
@@ -114,6 +118,7 @@ display: none;
   }
 
 }
+
 
 @media only screen and (max-width: 425px) {
 
