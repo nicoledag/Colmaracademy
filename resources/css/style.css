@@ -110,7 +110,7 @@ display: none;
 
   nav li {
    display: inline;
-   padding: 0 4rem;
+   padding: 0 3rem;
   }
 
   .responsive img {
@@ -119,6 +119,13 @@ display: none;
 
 }
 
+@media only screen and (max-width: 585px) {
+
+  nav li {
+     padding: 0 1.8rem;
+   }
+
+}
 
 @media only screen and (max-width: 425px) {
 
@@ -128,7 +135,9 @@ display: none;
 
 }
 
-@media only screen and (max-width: 375px) {
+
+
+@media only screen and (max-width: 400px) {
 
   nav li {
      padding: 0 1.2rem;
@@ -136,10 +145,10 @@ display: none;
 
 }
 
-@media only screen and (max-width: 325px) {
+@media only screen and (max-width: 330px) {
 
   nav li {
-     padding: 0 1.1rem;
+     padding: 0 1rem;
    }
 
 }
